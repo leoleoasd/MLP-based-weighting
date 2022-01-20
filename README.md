@@ -31,14 +31,13 @@ First, install dependencies
 git clone https://github.com/leoleoasd/MLP-based-weighting
 
 # install project   
-cd MLP-based-weighting
-pip install -e .   
-conda env create -f conda-env.yaml
+cd MLP-based-weighting 
+pip install -r requirements.txt
  ```
 Download biobert from huggingface.
 
 Next, navigate to the project and run it.
- ```bash
+```bash
 # run aoa reader
 python3 -m aoa_reader --batch_size 30 --precision=16 --name biobert_final --bert_dir data/bert_huggingface --gpus=,1 --occ_agg=sum --tok_agg=sum
 # run scibert
