@@ -51,6 +51,17 @@ python3 bert/biomrc_origional.py
 python3 -m weight --batch_size 1000 --aoa_filename ./predictions.pt --bert_filename ./scibert_predict.pt
 ```
 
+## Experiment Environment and Hyper Parameters
+
+Our experiment are carried out on the machine with Intel i9-10920X (24) @ 4.700GHz, GPU of GeForce GTX 3090 24G, using pytorch 1.9.1 as the deep learning framework. To avoid overfitting, all models are trained for ax maximum of 40 epochs, using early stopping on the dev, with a patience of 3 epochs.
+
+During the process of fine-tuning SciBert, the batch size is set to 1 and the top layer of SciBert is frozen; other layers are trained with the learning rate of 0.001.
+
+During the process of fine-tuning BioBert and training AoA Reader, the batch size is set to 30, the learning rate is set to 0.001, and the learning rate for BioBert is set to $10^{-5}$. To reduce GPU memory usage, we use the mixed-precision training technique, setting precision to 16 bits.
+
+We train our model on the BioMRC lite dataset and evaluate it both on the BioMRC lite and tiny dataset, which have 100,000 and 30 samples, respectively. We use Setting A for BioMRC, in which all pseudo-identifier like @entity1 have a global scope, i.e., all biomedical entities have a unique pseudo-identifier in the whole dataset.
+
+
 ## Imports
 This project is setup as a package which means you can now easily import any file into any other file like so:
 
