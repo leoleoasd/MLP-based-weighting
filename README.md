@@ -3,6 +3,7 @@
 
 [![Paper](http://img.shields.io/badge/arxiv-2206.12866-4b44ce.svg)](https://arxiv.org/abs/2206.12866)
 [![Conference](http://img.shields.io/badge/ACMBCB-2022-4b44ce.svg)]([https://papers.nips.cc/book/advances-in-neural-information-processing-systems-31-2018](https://doi.org/10.1145/3535508.3545508))
+ [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/contextual-embedding-and-model-weighting-by/machine-reading-comprehension-on-biomrc)](https://paperswithcode.com/sota/machine-reading-comprehension-on-biomrc?p=contextual-embedding-and-model-weighting-by)
  <!--
 
 [![Conference](http://img.shields.io/badge/ICLR-2019-4b44ce.svg)](https://papers.nips.cc/book/advances-in-neural-information-processing-systems-31-2018)
