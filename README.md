@@ -1,8 +1,10 @@
 <div align="center">    
 <h1>Contextual embedding and model weighting by fusing domain knowledge on Biomedical Question Answering </h1>
-<!--
-[![Paper](http://img.shields.io/badge/paper-arxiv.1001.2234-B31B1B.svg)](https://www.nature.com/articles/nature14539)
-[![Conference](http://img.shields.io/badge/NeurIPS-2019-4b44ce.svg)](https://papers.nips.cc/book/advances-in-neural-information-processing-systems-31-2018)
+
+[![Paper](http://img.shields.io/badge/arxiv-2206.12866-4b44ce.svg)](https://arxiv.org/abs/2206.12866)
+[![Conference](http://img.shields.io/badge/ACMBCB-2022-4b44ce.svg)]([https://papers.nips.cc/book/advances-in-neural-information-processing-systems-31-2018](https://doi.org/10.1145/3535508.3545508))
+ <!--
+
 [![Conference](http://img.shields.io/badge/ICLR-2019-4b44ce.svg)](https://papers.nips.cc/book/advances-in-neural-information-processing-systems-31-2018)
 [![Conference](http://img.shields.io/badge/AnyConference-year-4b44ce.svg)](https://papers.nips.cc/book/advances-in-neural-information-processing-systems-31-2018)  
 
@@ -77,16 +79,16 @@ The `aoa_reader` and `weight` part of this project is licensed under the GPL v3 
 The `bert_original.py` is extracted from [PetrosStav/BioMRC_code](https://github.com/PetrosStav/BioMRC_code).
 
 ### Citation   
-
-This paper isn't published yet. Will update info after publication.
-<!--```
-@article{YourName,
-  title={Your Title},
-  author={Your team},
-  journal={Location},
-  year={Year}
+```
+@misc{lu2022contextual,
+      title={Contextual embedding and model weighting by fusing domain knowledge on Biomedical Question Answering}, 
+      author={Yuxuan Lu and Jingya Yan and Zhixuan Qi and Zhongzheng Ge and Yongping Du},
+      year={2022},
+      eprint={2206.12866},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
 }
-```    -->
+```
 
 ### Acknowledgements
 
